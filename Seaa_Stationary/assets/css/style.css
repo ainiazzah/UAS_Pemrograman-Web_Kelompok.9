@@ -1,0 +1,114 @@
+/* Reset CSS */
+*{ margin: auto; padding: 0; }
+body { font-family:Verdana, Geneva, Tahoma, sans-serif;}
+/* Navigasi Bar */
+.slideUp { top:-100px; }
+.headroom { 
+	-webkit-transition: all 0.4s ease-out; 
+	-moz-transition: all 0.4s ease-out; 
+	-o-transition: all 0.4s ease-out; 
+	transition: all 0.4s ease-out; 
+}
+/*Header*/
+li{ list-style:none;}
+header {
+	background-color:#a6a4a4;
+	color:rgb(255, 255, 255);
+	height :90px;
+}
+.header-logo{ float: left; font-size: 32px; padding: 22px 38px; }
+/* MAIN/CONTENTS */
+#head { 
+	background:#656565 
+	url( ../images/bg4.jpeg) no-repeat; 
+	background-size: cover; 
+	min-height:520px; 
+	text-align: center; 
+	padding-top:200px; 
+	color:white; 
+	font-family:Verdana, Geneva, Tahoma, sans-serif; 
+	font-weight:300; 
+}
+#head .lead { 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	font-size:44px; 
+	margin-bottom:6px; 
+	color:rgb(0, 0, 0); 
+	line-height:1.15em; 
+}
+main{ padding:80px 60px;}
+.main-container{
+	height: 200px;
+	margin: auto;
+	background: url('../images/background.jpeg') no-repeat;
+}
+.main-container h1{ font-size: 45px; }
+.main-container h2{ font-size: 45px; }
+/* Highlights */
+.highlight { margin-top:40px; }
+	.h-caption { text-align: center; } 
+	.h-caption i { display:block; font-size: 54px; color:#000000; margin-bottom:36px; }
+	.h-caption h4 { color:#000000; font-size: 16px; font-weight: bold; margin-bottom:20px; }
+	.h-body { }
+
+/* Contents*/
+.contents{ margin-top: 100px; }
+.contents h3{
+	border-bottom: 2px solid #cecece;
+	font-size: 24px;
+	padding-bottom: 10px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.contents-item{ float: left; margin-right: 40px; }
+.contents-img{ width:250px; height:250px; padding: 25px; }
+.contents-img img{ width: 250px; }
+.contents-item p{ font-size: 20px; margin-top: 40px; }
+/* Pembayaran*/
+.pembayaran{
+	padding-top: 10px;
+	border-bottom: 2px solid #cecece;
+	font-size: 24px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+input,textarea{
+	width:300px;
+	margin-top: 10;
+	margin-top: 10px;
+	padding: 5px;
+	font-size :16px;
+	border: 1px solid #cecece;
+}
+button {
+	width: 20%;
+	height: 40px;
+	background-color:#a6a4a4;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Helpers */
+.container-full { margin: 20 auto; width: 100%; }
+.top-space { margin-top: 60px; }
+.top-margin { margin-top:20px; }
+/* Footer */
+.footer1 { background: #a6a4a4; padding: 30px 0 0 0; font-size: 12px; color: rgb(0, 0, 0); margin-top: 300px;}
+	.footer1 a { color: rgb(0, 0, 0); }
+		.footer1 a:hover {color: #fff; }
+	.footer1 .widget { margin-bottom:30px; }		
+	.footer1 .widget-title { font-size: 17px; font-weight: bold; color: rgb(0, 0, 0); margin: 0 0 20px; padding-bottom: 10px; }
+	.footer1 .entry-meta { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin: 0 0 35px 0; padding: 2px 0; color: #888888; font-size: 12px; font-size: 0.75rem; }
+		.footer1 .entry-meta a { color: #333333; }
+		.footer1 .entry-meta .meta-in { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px 0; }
+	.follow-me-icons { font-size:30px; }		
+		.follow-me-icons i { float:left; margin:0 10px 0 0; }		
+.footer2 { background: #191919; padding: 15px 0; color: #777; font-size: 12px; }
+	.footer2 a { color: rgb(255, 255, 255); }
+		.footer2 a:hover { color: #fff; }
+		.footer2 p { margin: 0; }
+	.widget-simplenav { margin-left:-5px; }		
+	.widget-simplenav a{ margin:0 5px; }		
